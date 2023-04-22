@@ -112,13 +112,10 @@ button {
   margin-top: 0;
 }
 
-.image-placeholder {
-  display: flex;
-  justify-content: center;
-  width: 800px;
+.hero-image {
+  width: 400px;
   height: auto;
-  background: #6d747d;
-  align-items: center;
+  border-radius: 5px;
 }
 
 .random {
@@ -135,13 +132,13 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 120px;
+  width: 220px;
 }
 
 .random-img {
-  width: 80px;
-  height: 80px;
-  border: 3px solid #3882f6;
+  width: 200px;
+  height: auto;
+
   border-radius: 10%;
   margin: 0 auto;
 }
