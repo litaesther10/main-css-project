@@ -77,7 +77,7 @@ button {
 
 .nav-bar,
 .header-links,
-.random,
+.motivation,
 .call-to-action {
   display: flex;
   flex-direction: row;
@@ -99,6 +99,10 @@ button {
   margin: 10px 10px;
 }
 
+.header-link {
+  text-decoration: none;
+}
+
 .header-link,
 .hero-secondary,
 .cta-info {
@@ -118,24 +122,24 @@ button {
   border-radius: 5px;
 }
 
-.random {
+.motivation {
   padding: 0 160px 100px;
   gap: 20px;
   justify-content: center;
 }
 
-.random-heading {
+.motivation-heading {
   font-family: RobotoBlack;
 }
 
-.random-info {
+.motivation-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 220px;
 }
 
-.random-img {
+.motivation-img {
   width: 200px;
   height: auto;
 
