@@ -18,6 +18,11 @@
   src: url(../fonts/Roboto-Light.ttf) format("truetype");
 }
 
+body {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
 footer,
 .hero {
   background: #1f2937;
@@ -57,11 +62,6 @@ button {
   color: #f9faf8;
   font-size: 18px;
   font-family: RobotoRegular;
-}
-
-.container {
-  max-width: 1450px;
-  margin: 0 auto;
 }
 
 .hero-container {
@@ -142,7 +142,6 @@ button {
 .motivation-img {
   width: 200px;
   height: auto;
-
   border-radius: 10%;
   margin: 0 auto;
 }
